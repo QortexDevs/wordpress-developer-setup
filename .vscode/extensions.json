@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"bmewburn.vscode-intelephense-client",
+		"rvest.vs-code-prettier-eslint",
+		"dbaeumer.vscode-eslint",
+		"ikappas.phpcs",
+		"persoderlind.vscode-phpcbf",
+		"EditorConfig.EditorConfig",
+		"stylelint.vscode-stylelint",
+	]
+}
