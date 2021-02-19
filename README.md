@@ -1,4 +1,6 @@
-# Wordpress Development Environment
+# Wordpress Visual Studio Code Development Environment
+
+Configures Visual Studio Code for Wordpress development.
 
 ## Usage
 
