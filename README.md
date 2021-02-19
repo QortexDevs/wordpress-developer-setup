@@ -1,6 +1,6 @@
-# Wordpress development environment
+# Wordpress Development Environment
 
-# Usage
+## Usage
 
 1. Create repo from this template
 2. Run
