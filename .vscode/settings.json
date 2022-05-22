@@ -1,13 +1,13 @@
 {
 	"phpcs.standard": "WordPress-Core",
+	"phpcs.executablePath": "./vendor/bin/phpcs",
+	//
 	"phpcbf.standard": "WordPress-Core",
 	"phpcbf.executablePath": "./vendor/bin/phpcbf",
 	"stylelint.enable": true,
 	"css.validate": false,
 	"scss.validate": false,
 	"editor.formatOnPaste": true,
-	"prettier.eslintIntegration": true,
-	"prettier.stylelintIntegration": true,
 	"editor.formatOnSave": true,
 	"[css]": {
 		"editor.formatOnSave": true,
@@ -30,7 +30,11 @@
 	"[xml]": {
 		"editor.formatOnSave": false
 	},
+	"[yml]": {
+		"editor.insertSpaces": true
+	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
+	"intelephense.files.maxSize": 5000000,
 }

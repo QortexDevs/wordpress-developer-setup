@@ -15,7 +15,6 @@
 	<arg name="extensions" value="php"/>
 	<!-- Use the WordPress ruleset, with exclusions. -->
 	<rule ref="WordPress">
-		<exclude name="WordPress.VIP"/>
 		<exclude name="Squiz.PHP.CommentedOutCode.Found"/>
 		<exclude name="Squiz.Commenting.FunctionComment" />
 		<exclude name="Squiz.Commenting.FileComment.Missing" />
@@ -34,7 +33,7 @@
 	<!-- Check all globals have the expected prefix. -->
 	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
 		<properties>
-			<property name="prefixes" type="array" value="CHILD_THEME, CHILD_TEXT_DOMAIN, pqp" />
+			<property name="prefixes" type="array" value="CHILD_THEME, CHILD_TEXT_DOMAIN" />
 		</properties>
 	</rule>
 	<!-- Allow theme-specific exceptions to WordPress filename rules. -->
